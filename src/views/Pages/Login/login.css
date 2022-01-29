@@ -1,0 +1,32 @@
+.App {
+    text-align: center;
+    overflow-x: hidden;
+    overflow: hidden;
+  }
+  html { 
+  overflow-x: hidden;}
+
+  .pad{
+    margin: -60px;
+  }
+  .App-header1 {
+    background-color: ORANGE;
+    height: 30px;
+  }
+  .App-header2 {
+    background-color: WHITE;
+    height: 30px;
+  }
+  .App-header3 {
+    background-color: GREEN;
+    height: 30px;
+  }
+  
+  .inner-body{
+    padding: 20px 0 20px 0;
+  }
+  .shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin-left: 30px; */
+  }
+  

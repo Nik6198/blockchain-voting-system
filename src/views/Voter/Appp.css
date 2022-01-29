@@ -1,0 +1,59 @@
+/* .App {
+  text-align: center;
+  overflow-x: hidden;
+  overflow: hidden;
+} */
+.pad{
+  margin: -60px;
+}
+.App-header1 {
+  background-color: ORANGE;
+  height: 30px;
+}
+.App-header2 {
+  background-color: WHITE;
+  height: 30px;
+}
+.App-header3 {
+  background-color: GREEN;
+  height: 30px;
+}
+/* .app-body{
+  margin: 100px;
+}
+.inner-body{
+  padding: 20px 0 20px 0;
+} */
+.shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* margin-left: 30px; */
+}
+.img-size{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.toolt{
+  text-align: left;
+  font-weight: 400;
+  font-size: 19px;
+  width: 400px;
+}
+
+.tooltext{
+  visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+.tooltip:hover .tooltext {
+  visibility: visible;
+  opacity: 1;}
